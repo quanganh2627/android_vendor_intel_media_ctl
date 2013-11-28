@@ -87,6 +87,7 @@ AC_CONFIG_FILES([
  src/Makefile
  libmediactl.pc
  libv4l2subdev.pc
+ libmediatext.pc
 ])
 
 AC_OUTPUT
