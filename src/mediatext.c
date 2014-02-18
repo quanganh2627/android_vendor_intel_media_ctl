@@ -73,6 +73,8 @@ struct ctrl_type {
 	char *str;
 } ctrltypes[] = {
 	{ V4L2_CTRL_TYPE_INTEGER, "int" },
+	{ V4L2_CTRL_TYPE_MENU, "menu" },
+	{ V4L2_CTRL_TYPE_INTEGER_MENU, "intmenu" },
 	{ V4L2_CTRL_TYPE_BITMASK, "bitmask" },
 	{ V4L2_CTRL_TYPE_INTEGER64, "int64" },
 };
